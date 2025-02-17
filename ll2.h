@@ -150,7 +150,7 @@ void printListR( LLPtr currentPtr )
       puts( "List is empty.\n" );
    } 
    else {
-      puts( "The reverse list is:" );
+      //puts( "The reverse list is:" );
       
       while(currentPtr->nextPtr!=NULL)
          currentPtr=currentPtr->nextPtr;
